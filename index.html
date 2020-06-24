@@ -8,60 +8,292 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <!-- Brand Container -->
-      <div class="brand-container">
+    <header class="header"><!-- container level -->
+      <div class="container level">
+        <!-- Brand Container -->
+        <div class="brand-container level-left">
+          <span class="level-item"><img src="brand/logo.png" alt="Electrohm"></span>
+        </div>
+        <!-- Fin Brand Container -->
 
+        <!-- Navigation & Barre de recherche -->
+        <!--<div class="level profile-panier-recherche-container level-right" style="border: 1px solid">
+          <div class="barre-recherche-container level-item">
+            <div class="field has-addons">
+              <p class="control">
+                <input type="text" class="input" placeholder="Enter Keywords...">
+              </p>
+              <p class="control">
+                <a type="text" class="button is-info">Search</a>
+              </p>
+            </div>
+          </div>-->
+          <!-- -->
+          <!--<div class="menu-container">
+            <ul class-"menu">
+              <li><a href="#">Accueil</a></li>
+            </ul>
+          </div>
+
+          <div class="cone-panier-container">
+
+          </div>
+        </div>-->
+        <!-- Fin Navigation & Barre de recherche -->
       </div>
-      <!-- Fin Brand Container -->
-
-      <!-- Navigation & Barre de recherche -->
-      <nav>
-        <div class="menu-container">
-          <ul class-"menu">
-            <li><a href="#">Accueil</a></li>
-          </ul>
-        </div>
-
-        <div class="panier-container">
-
-        </div>
-      </nav>
-      <!-- Fin Navigation & Barre de recherche -->
     </header>
     <!-- Fin Header -->
 
     <!-- Navigation principale -->
-    <nav class="navigation-principale">
+    <nav class="navbar navigation-principale" role="navigation" aria-label="dropdown navigation">
+      <div class="container">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="#" class="navbar-link is-arrowless">Vidéosurveillance</a>
+          <div class="navbar-dropdown">
+            <a href="#" class="navbar-item">Caméra IP</a>
+            <a href="#" class="navbar-item">Caméra Wifi</a>
+            <a href="#" class="navbar-item">Caméra Solaire</a>
+            <a href="#" class="navbar-item">Caméra Ampoule</a>
+          </div>
+        </div>
 
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="#" class="navbar-link is-arrowless">Sécurité</a>
+          <div class="navbar-dropdown">
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="#" class="navbar-link is-arrowless">Informatique</a>
+          <div class="navbar-dropdown">
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="#" class="navbar-link is-arrowless">Électronique</a>
+          <div class="navbar-dropdown">
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="#" class="navbar-link is-arrowless">Consommable</a>
+          <div class="navbar-dropdown">
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="#" class="navbar-link is-arrowless">Beauté & Hygiène</a>
+          <div class="navbar-dropdown">
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="#" class="navbar-link is-arrowless">Mode</a>
+          <div class="navbar-dropdown">
+          </div>
+        </div>
+      </div>
     </nav>
     <!-- Fin Navigation Principale -->
 
     <!-- Main Container -->
-    <main class="">
+    <main class="container">
       <!-- Bannière animée -->
+      <section class="hero is-primary">
+        <div class="hero-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </section>
       <!-- Fin Bannière animée -->
 
       <!-- Presentation Service -->
+      <!--<section class="section presentation-service">
+        <div class="columns">
+          <div class="column" style="background-color: red">
+            Achetez tout ce que vous voulez en ligne
+          </div>
+          <div class="column is-primary">
+            Paiement sécurisé
+          </div>
+          <div class="column is-primary">
+            Livraison Rapide
+          </div>
+          <div class="column is-primary">
+            Un Service Client Toujours Prêt A Vous Aider
+          </div>
+        </div>
+      </section>-->
       <!-- Fin Presentation Service -->
 
+
       <!-- Nouveaux Produits -->
+      <section class="section">
+        <h2 class="title is-3 has-text-centered">Nouveaux produits</h2>
+        <div class="columns">
+          <div class="column" style="border: 1px solid">
+            <div class="">
+              <img src="https://via.placeholder.com/400" alt="150x150">
+            </div>
+            <div class="">
+              150 000 <span>Ajouter</span>
+            </div>
+          </div>
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+        </div>
+      </section>
       <!-- Fin Nouveaux Produits -->
 
-      <!-- Menu Catégories 6 Clés -->
-      <!-- Fin Menu Catégories 6 Clés -->
+      <!-- Catégories Aléatoires -->
+      <!--<section class="section">
+        <div class="columns">
+          <div class="column">
+            Informatique
+          </div>
+          <div class="column">
+            Vidéosurveillance
+          </div>
+          <div class="column">
+            Mode
+          </div>
+          <div class="column">
+            <p>
+              S'inscrire si nouvel utilisateur
+            </p>
+          </div>
+        </div>
+      </section>-->
+      <!-- Fin Catégories Aléatoires -->
 
       <!-- Produits Les Plus Vendus -->
+      <section class="section">
+        <h2 class="title is-3 has-text-centered">Les Plus Vendus</h2>
+        <div class="columns">
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+          <div class="column">
+            <img src="https://via.placeholder.com/400" alt="150x150">
+          </div>
+        </div>
+      </section>
       <!-- Fin Produits Les Plus Vendus -->
 
       <!-- Produits Favoris -->
       <!-- Fin Produits Favoris -->
 
+      <!-- Offres Du Jour -->
+      <!-- Fin Offres Du Jour -->
+
     </main>
     <!-- Fin Main -->
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-5">
+            <div class="block">
+              <span class="is-4"><img src="brand/logo.png" alt="Electrohm"></span>
+              <br>
+              <span>Acheter Partout</span>
+            </div>
+            <div class="block">
+              <h4 class="is-4">Adresse:</h4>
+              <p>
+                Hamdallaye ACI 2000, Rue 250 P78
+              </p>
+              <br>
+              <p>
+                <span>SAV:</span> 20 21 2526
+              </p>
+              <br>
+              <p>
+                <span>TEL:</span> 20 21 2626
+              </p>
+              <br>
+              <p>
+                <span>EMAIL:</span> info@electrohmshop.ml
+              </p>
+            </div>
+          </div>
+
+          <div class="column">
+            <h4 class="title is-4">Categories</h4>
+            <ul>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <!-- Suite Categories -->
+            <h4 class="title is-4"></h4>
+            <ul>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+              <li><a href="#">Categorie</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h4 class="title is-4">Service client</h4>
+            <ul>
+              <li><a href="#">Mon Compte</a></li>
+              <li><a href="#">Suivre commandes</a></li>
+              <li><a href="#">Liste de souhaits</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">A Propos</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Termes & Conditions</a></li>
+              <li><a href="#">Confidentialité</a></li>
+              <li><a href="#">Retour</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright content has-text-centered">
+          &copy; 2020 Tous droits réservés Electrohm | Conception & Dévéloppment par <a href="#">...</a>
+        </div>
+      </div>
     </footer>
     <!-- Fin footer -->
   </body>
