@@ -1,0 +1,16 @@
+footer
+{}
+
+footer a
+{
+}
+
+footer a:link
+{
+  color: inherit;
+}
+
+.address-info-type
+{
+  color: #000000;
+}

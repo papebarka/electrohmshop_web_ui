@@ -1,0 +1,37 @@
+.header
+{
+
+}
+
+.navigation-layout
+{
+  padding-top: 0.25em;
+}
+
+.logo
+{
+  width: 180px;
+  height: 70px;
+}
+
+.navigation-menu
+{
+  margin-left: 4em;
+}
+
+.cart-link
+{
+  color: #000000;
+}
+
+.cart-link:hover
+{
+
+}
+
+.cart-bracket
+{
+  width:1.5em;
+  height:1.5em;
+  border:2px solid;
+}
