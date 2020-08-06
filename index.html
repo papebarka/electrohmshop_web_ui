@@ -8,62 +8,41 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header"><!-- container level -->
-      <div class="container level">
-        <!-- Brand Container -->
-        <div class="brand-container level-left">
-          <span class="level-item"><img src="brand/logo.png" alt="Electrohm"></span>
-        </div>
-        <!-- Fin Brand Container -->
-
-
-        <div class="level-right">
-          <div class="level-item">
-            <span>Mon Compte</span>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="" href="#">
+              <img src="brand/logo.png" alt="Electrohm">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
           </div>
-          <div class="level-item">
-            <!--<span>Mon Panier</span>-->
-            <span><div class="panier-bracket" style="width:1.5em; height:1.5em; border:2px solid"></div></span>
+          <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+              <a href="#" class="navbar-item">Accueil</a>
+              <a href="#" class="navbar-item">Vidéosurveillance</a>
+              <a href="#" class="navbar-item">Sécurité</a>
+              <a href="#" class="navbar-item">Informatique</a>
+              <a href="#" class="navbar-item">Électronique</a>
+            </div>
+
+            <div class="navbar-end">
+              <a href="#" class="navbar-item">Mon Compte</a>
+              <div class="navbar-item">
+                <a href="#">
+                  <span><div class="panier-bracket" style="width:1.5em; height:1.5em; border:2px solid"></div></span>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
+        </nav>
       </div>
     </header>
     <!-- Fin Header -->
-
-    <!-- Navigation principale -->
-    <nav class="navbar navigation-principale" role="navigation" aria-label="dropdown navigation">
-      <div class="container">
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a href="#" class="navbar-link is-arrowless">Vidéosurveillance</a>
-          <div class="navbar-dropdown">
-            <a href="#" class="navbar-item">Caméra IP</a>
-            <a href="#" class="navbar-item">Caméra Wifi</a>
-            <a href="#" class="navbar-item">Caméra Solaire</a>
-            <a href="#" class="navbar-item">Caméra Ampoule</a>
-          </div>
-        </div>
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a href="#" class="navbar-link is-arrowless">Sécurité</a>
-          <div class="navbar-dropdown">
-          </div>
-        </div>
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a href="#" class="navbar-link is-arrowless">Informatique</a>
-          <div class="navbar-dropdown">
-          </div>
-        </div>
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a href="#" class="navbar-link is-arrowless">Électronique</a>
-          <div class="navbar-dropdown">
-          </div>
-        </div>
-
-      </div>
-    </nav>
-    <!-- Fin Navigation Principale -->
 
     <!-- Main Container -->
     <main class="container">
