@@ -1,5 +1,7 @@
 document.addEventListener( 'DOMContentLoaded', function () {
-		new Splide( '.splide' ).mount();
+		new Splide( '.splide', {
+			height: '25em',
+		}).mount();
 	} );
 
 /*<div class="hero-body">
