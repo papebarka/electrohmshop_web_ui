@@ -1,15 +1,18 @@
-.add-to-cart-container
+.product-name-container
 {
-  /*width: 2em;
-  height: 2em;*/
-  /*background-color: red;
-  border-radius: 50%;*/
+  margin-bottom: 0.5em;
 }
 
-.add-to-cart-button
+.product-name
 {
-  width: 2.5rem;
-  height: 2.5rem;
-  background-color: green;
-  border-radius: 50%;
+  font-size: 1.2rem;
+}
+
+.product-price-container
+{
+}
+
+.product-price
+{
+  font-size: 1rem;
 }
